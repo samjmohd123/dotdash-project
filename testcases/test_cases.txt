@@ -1,1 +1,43 @@
 //please add your test cases here.
+S.No	List of testcases identified for the application in test:
+1	verify the title of application is "NSS-TODO List v 1.1"
+2	verify the (min and max) boundary values for the text field to add item
+3	verify the maximum items that are displayed on a single page
+4	verify user is able to add TODO items to the TODO list
+5	verify that user is able to add new(TODO item-1) item to TODO list with category 'none'
+6	verify that TODO item-2 is displayed in green color after adding new item (TODO item-2) to TODO list with category 'College' 
+7	verify that TODO item-3 is displayed in pink color after adding new item (TODO item-3) to TODO list with category 'Leisure'
+8	verify that TODO item-4 is displayed in gray color after adding new item (TODO item-4) to TODO list with category 'play'
+9	verify that TODO item-5 is displayed in brown color after adding new item (TODO item-5) to TODO list with category 'Personal'
+10	verify that unique ID is assigned for each new item that is created
+11	verify that all items are selected when user clicks on "Toggle all" check box
+12	verify that user is able to delete selected TODO item from the TODO items list
+13	verify that user is able to mark selected TODO item as complete from the TODO items list
+14	verify that application displays "Sorry that TODO item already exists" when user trying to add an existing TODO item to the list
+15	verify user is able to navigate back to index.php page when clicked on [Back] button
+
+16	verify that item-6 is displayed in red color after adding new item (item-6) to TODO list with category 'Personal' and with due date 14/02/2018 less than SYS_DATE
+
+17	verify that item-7 is displayed in brown color after adding new item (item-7) to TODO list with category 'Personal' and with due date 14/09/2018 greater than SYS_DATE
+
+18	verify that items with due date are listed on top of the TODO list and sorted based on due date(assending order)
+19	verify that item-8 is added with due date 03/03/19 when user selected an invalid due date of 31/02/2019
+20	verify that item-9 is added without due date when user selects either only date or month
+21	verify the boundary values for the due date field
+
+22	verify that new item is added to the bottom of list and moved to top of list when another item is added for only None catogory items
+
+23	verify user is able to add new catogary (office) with blue color
+24	verify that newly added office category shows up in the category dropdownlist
+25	verify that user is able to delete office category by clicking on that category and selecting yes option
+26	verify that system displays "Are you sure you wish to remove office?" warning message when user is trying to delete office category
+
+27	verify that system displays warning message when user try to add an existing category "The category you want to add already exists: College. Do you want to update its colour to College?"
+
+28	verify that system displays warning message when user try to add a new catrgory but with existing color "That colour is already being used by: Personal.Do you want to rename Personal to test?Or do you want to add test and remove the colour of 'Personal'?"
+
+29	verify the maximum number of categories that can be added to the application
+30	select toggle all option and delete all items and verify the message that system displays
+31	verify user is able to edit eixting TODO item by clicking on item number
+32      verify that TODOitemcolor changes to black when the category matching to that item color is deleted
+ 
